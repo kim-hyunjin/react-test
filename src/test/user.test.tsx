@@ -44,5 +44,5 @@ it("renders user data", async () => {
   expect(container!.textContent).toContain(fakeUser.address);
 
   // 테스트가 완전히 격리되도록 mock을 제거하세요.
-  global.fetch.mockRestore();
+  // global.fetch.mockRestore();
 });
